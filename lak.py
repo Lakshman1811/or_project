@@ -130,7 +130,6 @@ class PackingGUI:
                         item["Airline Baggage Type"]
                     ))
                 self.output_text.delete(1.0, tk.END)
-                self.output_text.insert(tk.END, f"Loaded {len(self.items)} items successfully.\n")
         except Exception as e:
             traceback.print_exc()
             self.output_text.delete(1.0, tk.END)
