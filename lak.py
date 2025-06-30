@@ -287,3 +287,4 @@ if __name__ == "__main__":
         traceback.print_exc()
         tk.Tk().withdraw()
         messagebox.showerror("Error", f"Failed to start GUI: {str(e)}")
+
